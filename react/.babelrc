@@ -1,0 +1,12 @@
+{
+  "presets": ["react", "es2015", "stage-1"],
+  "plugins": ["transform-decorators-legacy" /* should always be the first plugin! */],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"],
+      "plugins": [
+        ["import", { "libraryName": "antd", "style": "css" }] // `style: true` for less
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "metallica-gql-api",
+  "version": "1.0.0",
+  "description": "Metallica project API",
+  "author": "Prashant Kashyap",
+  "license": "ISC",
+  "scripts": {
+    "start": "node lib/index",
+    "dev": "nodemon --exec node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactjscamp/name-contests.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "bugs": {
+    "url": "https://github.com/reactjscamp/name-contests/issues"
+  },
+  "homepage": "https://github.com/reactjscamp/name-contests#readme",
+  "dependencies": {
+    "dataloader": "^1.2.0",
+    "es6-promise": "^4.2.2",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.0",
+    "graphql-date": "^1.0.3",
+    "humps": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.13.1",
+    "mongodb": "^2.1.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

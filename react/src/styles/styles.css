@@ -1,0 +1,124 @@
+/* Styles */
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  margin: 0 auto;
+}
+
+a.active {
+  color: orange;
+}
+
+.logo {
+  width: 153px;
+  height: 31px;
+  background-image:url('./../images/rock.jpg');
+  border-radius: 6px;
+  margin: 16px 10px 16px 0;
+  float: left;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent;
+  border-bottom: 3px solid red
+}
+
+.ant-menu-dark .ant-menu-submenu-selected {
+  color: red;
+}
+
+.ant-menu-dark .ant-menu-item-selected > a, .ant-menu-dark .ant-menu-item-selected > a:hover, .ant-menu-dark .ant-menu-item:hover >a {
+  color: red;
+}
+
+.ant-menu-dark .ant-menu-item:hover >a {
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+.component-container {
+  border-radius: 4px;
+  border: solid 1px darkgrey;
+  background-color: #f5f4f4;
+  margin-bottom: 10px;
+}
+.component-row {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* padding-bottom: 10px; */
+}
+
+.trade-header {
+  background-color: rgb(216, 209, 209);
+  font-weight: bold;
+  border-bottom: solid 1px darkgrey;
+  padding: 10px;
+  min-height: 30px;
+}
+
+.trade-detail-form .ant-btn {
+  margin-right: 8px;
+  float: right;
+}
+
+.trade-list-view .ant-table-thead > tr > th {
+  font-weight: bold;
+  background-color: rgb(216, 209, 209);
+  border-bottom: 1px solid darkgrey;
+}
+
+.trade-list-view .ant-table-row {
+  cursor: pointer;
+}
+
+.trade-list-view .ant-pagination {
+  margin-right: 5px;
+}
+
+.trans-detail-form .ant-form-item{
+  margin-bottom: 5px;
+}
+
+.trans-detail-form-sep hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #c1bcbc;
+}
+
+.trans-purch-sale-div {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.trans-purch-sale-row {
+  border-top: 2px solid darkgrey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.trans-purch-sale-span {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.transfer-purch-sale-div {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.transfer-purch-sale-row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.transfer-purch-sale-span {
+  font-weight: bold;
+  padding-top: 5px;
+}
